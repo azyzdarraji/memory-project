@@ -13,7 +13,7 @@ const getPosts= ()=> async (dispatch)=>{
         dispatch([] )
 
     } catch (error) { 
-        
+
         
     }
     const action ={type :FETCH_ALL , payload : []}
